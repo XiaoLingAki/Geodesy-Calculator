@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GeodesyCalculator</string>
+    <string name="launch_title">initializing…</string>
+    <string name="launch_text">欢迎使用！</string>
+
+    <string name="title">测量计算实用工具</string>
+    <string name="todo">TODO</string>
+
+    <string name="title_activity_error">ErrorActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
