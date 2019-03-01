@@ -12,8 +12,23 @@
         android:roundIcon="@mipmap/earthicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArgACT3Activity"></activity>
-        <activity android:name=".ArgACT2Activity" />
+
+        <activity android:name=".ArgACT3Activity">
+            <intent-filter>
+                <action android:name="CGCS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ArgACT2Activity" >
+            <intent-filter>
+                <action android:name="WGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".ArgACT1Activity">
             <intent-filter>
                 <action android:name="1975" />
