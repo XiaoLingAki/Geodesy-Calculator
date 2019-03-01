@@ -23,9 +23,11 @@ public class LaunchActivity extends AppCompatActivity {
             public void run() {
                 Intent intent=new Intent(LaunchActivity.this,MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         },2000);
         //假装自己在初始化什么东西
         //给钱优化
+
     }
 }

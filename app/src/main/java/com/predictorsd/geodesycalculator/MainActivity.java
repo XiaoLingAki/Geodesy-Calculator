@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void initlist(){
-        Actions error=new Actions("常用平差计算",R.mipmap.ic_launcher,"error");
+        Actions error=new Actions("坐标转换计算",R.mipmap.ic_launcher,"error");
         Actions argument=new Actions("常用参数查看",R.mipmap.ic_launcher,"argument");
         Actions location=new Actions("测区定位功能",R.mipmap.ic_launcher,"location");
 

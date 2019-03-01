@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="192dp"
-        android:layout_height="81dp"
+        android:layout_width="207dp"
+        android:layout_height="94dp"
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/launch_text"
         android:textColor="#FF2D2D"
-        android:textSize="36sp"
+        android:textSize="30sp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

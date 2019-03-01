@@ -7,16 +7,53 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/earthicon"
+        android:label="@string/app_title"
+        android:roundIcon="@mipmap/earthicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ArgACT3Activity"></activity>
+        <activity android:name=".ArgACT2Activity" />
+        <activity android:name=".ArgACT1Activity">
+            <intent-filter>
+                <action android:name="1975" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ErrorAct4Activity">
+            <intent-filter>
+                <action android:name="e_ACT4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ErrorAct3Activity">
+            <intent-filter>
+                <action android:name="e_ACT3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ErrorAct2Activity">
+            <intent-filter>
+                <action android:name="e_ACT2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ErrorAct1Activity">
+            <intent-filter>
+                <action android:name="e_ACT1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ArgumentActivity">
             <intent-filter>
-                <action android:name="argument"/>
+                <action android:name="argument" />
 
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity

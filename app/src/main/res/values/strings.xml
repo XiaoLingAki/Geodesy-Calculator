@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">GeodesyCalculator</string>
+    <string name="app_title">测绘计算工具</string>
     <string name="launch_title">initializing…</string>
     <string name="launch_text">欢迎使用！</string>
 
@@ -9,4 +10,17 @@
     <string name="title_activity_error">ErrorActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="e_act1_1">请输入空间直角坐标：</string>
+    <string name="e_act_1_2">计算结果：</string>
+    <string name="e_act1_button1">开始计算</string>
+    <string name="e_act2_1">请输入大地坐标：</string>
+    <string name="e_act3_text1">请输入坐标：</string>
+    <string name="e_act3_title">高斯投影变换正算</string>
+    <string name="e_act2_title">大地坐标转空间直角坐标</string>
+    <string name="e_act1_title">空间直角坐标转大地坐标</string>
+    <string name="e_act4_title">高斯投影变换反算</string>
+    <string name="a_act1_title">1975椭球参数</string>
+    <string name="a_act1_content">1975椭球参数</string>
+    <string name="a_act2_title">WGS84椭球体参数</string>
+    <string name="a_act3_title">CGCS2000椭球参数</string>
 </resources>

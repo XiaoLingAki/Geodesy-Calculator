@@ -29,12 +29,12 @@ public class ArgumentActivity extends AppCompatActivity {
     }
 
     void initlist(){
-        Actions error=new Actions("高斯坐标正算",R.mipmap.ic_launcher,"error");
-        Actions argument=new Actions("高斯坐标反算",R.mipmap.ic_launcher,"argument");
-        Actions location=new Actions("测区定位功能",R.mipmap.ic_launcher,"location");
+        Actions act1=new Actions("1975国际椭球参数",R.mipmap.ic_launcher,"1975");
+        Actions act2=new Actions("WGS84椭球参数",R.mipmap.ic_launcher,"WGS");
+        Actions act3=new Actions("CGCS2000椭球参数",R.mipmap.ic_launcher,"CGCS");
 
-        selist.add(error);
-        selist.add(argument);
-        selist.add(location);
+        selist.add(act1);
+        selist.add(act2);
+        selist.add(act3);
     }
 }
