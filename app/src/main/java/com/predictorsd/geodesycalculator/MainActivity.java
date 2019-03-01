@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void initlist(){
-        Actions error=new Actions("坐标转换计算",R.mipmap.ic_launcher,"error");
+        Actions error=new Actions("坐标转换计算",R.mipmap.earthicon,"error");
         Actions argument=new Actions("常用参数查看",R.mipmap.earthicon,"argument");
         //Actions location=new Actions("测区定位功能",R.mipmap.ic_launcher,"location");
 
