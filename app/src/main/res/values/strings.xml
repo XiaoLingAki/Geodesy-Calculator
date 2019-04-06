@@ -23,4 +23,5 @@
     <string name="a_act1_content">1975椭球参数</string>
     <string name="a_act2_title">WGS84椭球体参数</string>
     <string name="a_act3_title">CGCS2000椭球参数</string>
+    <string name="erroract_6_1">空间七参数坐标转换</string>
 </resources>

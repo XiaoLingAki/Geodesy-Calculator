@@ -22,6 +22,7 @@ public class ErrorAct5Activity extends AppCompatActivity {
         final EditText editText2=findViewById(R.id.act5edit2);
         final EditText editText3=findViewById(R.id.act5edit3);
         final EditText editText4=findViewById(R.id.act5edit4);
+
         final EditText editText5=findViewById(R.id.act5edit5);
         final EditText editText6=findViewById(R.id.act5edit6);
 
@@ -33,10 +34,12 @@ public class ErrorAct5Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try{
+                    //四参数
                     double dX=Double.parseDouble(editText1.getText().toString());
                     double dY=Double.parseDouble(editText2.getText().toString());
                     double alpha=Double.parseDouble(editText3.getText().toString());
                     double m=Double.parseDouble(editText4.getText().toString());
+                    //输入的x、y
                     double x=Double.parseDouble(editText5.getText().toString());
                     double y=Double.parseDouble(editText6.getText().toString());
 
@@ -47,9 +50,6 @@ public class ErrorAct5Activity extends AppCompatActivity {
                 }catch (Exception e){
                     Toast.makeText(v.getContext(),"错误的输入数据！",Toast.LENGTH_SHORT).show();
                 }
-
-
-
             }
         });
     }

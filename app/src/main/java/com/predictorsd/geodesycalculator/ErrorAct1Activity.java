@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.predictorsd.geodesycalculator.CoordinateConvert.CoordinateConvert;
 
@@ -26,16 +27,20 @@ public class ErrorAct1Activity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double X=Double.parseDouble(editText1.getText().toString());
-                double Y=Double.parseDouble(editText2.getText().toString());
-                double Z=Double.parseDouble(editText3.getText().toString());
+                try{
+                    double X=Double.parseDouble(editText1.getText().toString());
+                    double Y=Double.parseDouble(editText2.getText().toString());
+                    double Z=Double.parseDouble(editText3.getText().toString());
 
-                CoordinateConvert coordinateConvert=new CoordinateConvert();
-                double[] result=coordinateConvert.ConvertStoL(X,Y,Z);
+                    CoordinateConvert coordinateConvert=new CoordinateConvert();
+                    double[] result=coordinateConvert.ConvertStoL(X,Y,Z);
 
-                editText4.setText(String.valueOf(result[0]));
-                editText5.setText(String.valueOf(result[1]));
-                editText6.setText(String.valueOf(result[2]));
+                    editText4.setText(String.valueOf(result[0]));
+                    editText5.setText(String.valueOf(result[1]));
+                    editText6.setText(String.valueOf(result[2]));
+                }catch (Exception e){
+                    Toast.makeText(v.getContext(),"错误的输入数据！",Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
